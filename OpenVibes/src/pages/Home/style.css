@@ -1,54 +1,60 @@
-body, html {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  width: 100%;
-  box-sizing: border-box;
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .home-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  padding: 20px;
-  background-color: #121212;
-  color: white;
-  height: calc(100vh - 60px); 
-  box-sizing: border-box;
-  overflow: hidden; 
-  padding-top: 20px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    background-color: #121212;
+    color: white;
+    flex-grow: 1;
+    box-sizing: border-box;
+    width: 100%;
+    overflow-y: auto;
 }
 
-.promo-section, .events-section {
-  width: 100%;
-  max-width: 1200px;
-  margin: 20px 0;
+.promo-section,
+.events-section {
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px 0;
 }
 
-.promo-section h2, .events-section h2 {
-  color: #ff5722;
-  text-align: center;
-  margin-bottom: 15px;
+.promo-section h2,
+.events-section h2 {
+    color: #ff5722;
+    text-align: center;
+    margin-bottom: 15px;
 }
 
-.promo-list, .events-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+.promo-list,
+.events-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.promo-list > div, .events-list > div {
-  margin: 10px;
-  padding: 15px;
-  background-color: #333;
-  border-radius: 8px;
-  color: #fff;
-  flex: 1 1 200px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  transition: transform 0.2s;
+.promo-list>div,
+.events-list>div {
+    margin: 10px;
+    padding: 15px;
+    background-color: #333;
+    border-radius: 8px;
+    color: #fff;
+    flex: 1 1 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
 }
 
-.promo-list > div:hover, .events-list > div:hover {
-  transform: scale(1.05);
+.promo-list>div:hover,
+.events-list>div:hover {
+    transform: scale(1.05);
 }
