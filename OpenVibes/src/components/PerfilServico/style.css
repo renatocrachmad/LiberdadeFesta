@@ -1,0 +1,66 @@
+.perfil-servico {
+    background-color: #ffffff; 
+    border: 1px solid #dee2e6; 
+    border-radius: 8px; 
+    padding: 20px;
+    margin: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.2s;
+  }
+  
+  .perfil-servico:hover {
+    transform: scale(1.05); 
+  }
+  
+  .servico-nome {
+    font-family: 'Poppins', sans-serif; 
+    color: #5e35b1; 
+    margin-bottom: 10px;
+  }
+  
+  .servico-imagem {
+    width: 100%;
+    height: auto; 
+    border-radius: 8px; 
+    margin-bottom: 15px;
+  }
+  
+  .servico-descricao {
+    font-family: 'Open Sans', sans-serif; 
+    color: #333; 
+    margin-bottom: 10px;
+  }
+  
+  .servico-preco {
+    font-weight: bold; 
+    color: #ff7043; 
+    margin-bottom: 20px;
+  }
+  
+  .servico-avaliacoes {
+    margin-bottom: 20px;
+  }
+  
+  .avaliacao {
+    border-bottom: 1px solid #e0e0e0; 
+    padding: 5px 0;
+  }
+  
+  .avaliacao-nota {
+    font-weight: bold; 
+  }
+  
+  .servico-botao {
+    background-color: #5e35b1; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .servico-botao:hover {
+    background-color: #4a148c; 
+  }
+  

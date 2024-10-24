@@ -1,0 +1,47 @@
+.perfil-usuario {
+    background-color: #f9f9f9; 
+    border: 1px solid #dee2e6; 
+    border-radius: 8px; 
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .usuario-nome {
+    font-family: 'Poppins', sans-serif; 
+    color: #5e35b1; 
+    margin-bottom: 10px;
+  }
+  
+  .usuario-email {
+    font-family: 'Open Sans', sans-serif; 
+    color: #333; 
+    margin-bottom: 20px;
+  }
+  
+  .eventos-lista {
+    margin-top: 20px;
+  }
+  
+  .evento-item {
+    background-color: #fff; 
+    border: 1px solid #e0e0e0; 
+    border-radius: 5px; 
+    padding: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .botao-recontratar {
+    background-color: #5e35b1; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .botao-recontratar:hover {
+    background-color: #4a148c; 
+  }
+  

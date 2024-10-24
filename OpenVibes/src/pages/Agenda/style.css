@@ -1,0 +1,17 @@
+.agenda-container {
+    padding: 20px;
+    background-color: #ffffff;
+  }
+  
+  .event-calendar {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .event-item {
+    padding: 10px;
+    background-color: #eeeeee;
+    margin: 5px 0;
+    border-radius: 5px;
+  }
+  

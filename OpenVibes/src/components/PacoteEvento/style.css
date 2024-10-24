@@ -1,0 +1,46 @@
+.pacote-evento {
+    background-color: #f8f9fa; 
+    border: 1px solid #dee2e6; 
+    border-radius: 8px; 
+    padding: 20px;
+    margin: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.2s;
+  }
+  
+  .pacote-evento:hover {
+    transform: scale(1.05); 
+  }
+  
+  .pacote-titulo {
+    font-family: 'Poppins', sans-serif; 
+    color: #5e35b1; 
+    margin-bottom: 10px;
+  }
+  
+  .pacote-descricao {
+    font-family: 'Open Sans', sans-serif; 
+    color: #333; 
+    margin-bottom: 10px;
+  }
+  
+  .pacote-preco {
+    font-weight: bold; 
+    color: #ff7043; 
+    margin-bottom: 20px;
+  }
+  
+  .pacote-botao {
+    background-color: #5e35b1; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .pacote-botao:hover {
+    background-color: #4a148c; 
+  }
+  
